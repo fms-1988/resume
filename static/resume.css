@@ -9,7 +9,10 @@
                         (matt brown)
 ---------------------------------------------------------------------------------
 */
-
+html {
+    margin:    0 auto;
+    max-width: 900px;
+}
 
 .msg { padding: 10px; background: #222; position: relative; }
 .msg h1 { color: #fff;  }
