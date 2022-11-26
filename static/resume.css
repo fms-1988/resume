@@ -10,8 +10,6 @@
 ---------------------------------------------------------------------------------
 */
 
-.div {column-gap: 12%;}
-
 
 .msg { padding: 10px; background: #222; position: relative; }
 .msg h1 { color: #fff;  }
@@ -38,7 +36,7 @@ h2 { font-size: 152% }
 h3, h4 { font-size: 122%; }
 h1, h2, h3, h4 { color: #333; }
 p { font-size: 100%; line-height: 18px; padding-right: 3em; }
-a { color: #529bee }
+a { color: #990003 }
 a:hover { text-decoration: none; }
 strong { font-weight: bold; }
 li { line-height: 24px; border-bottom: 1px solid #ccc; }
@@ -63,15 +61,18 @@ a#pdf:hover { background: #222; }
 .skills-list ul { margin: 0; }
 .skills-list li { margin: 3px 0; padding: 3px 0; }
 .skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
+.talent { width: 32%; float: left }
 .talent h2 { margin-bottom: 6px; }
 
 #srt-ttab { margin-bottom: 100px; text-align: center;  }
 #srt-ttab img.last { margin-top: 20px }
 
+/* --// override to force 1/8th width grids -- */
+.yui-gf .yui-u{width:80.2%;column-gap: 2cm;}
+.yui-gf div.first{width:12.3%;}
 
-.div{
-    column-width: 500px;
-    column-gap: 2em;            
-    padding: 5px; 
-    text-align:justify;
-  }
+
+div {height: 200px;
+    width:20cm;
+    background-color: powderblue;
+    }
