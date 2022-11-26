@@ -69,7 +69,15 @@ a#pdf:hover { background: #222; }
 #srt-ttab img.last { margin-top: 20px }
 
 /* --// override to force 1/8th width grids -- */
-.yui-gf .yui-u{float: left; width:50%;font-weight: bold}
+.yui-gf .yui-u{ width:50%;font-weight: bold}
 .yui-gf div.first{width:12.3%;}
 .city{color: rgb(133, 133, 133); font-size: 100%; text-align:right}
 .marg1 { margin: 0.1em 0 1em 0; }
+
+
+/* Clear floats after the columns */
+.yui-gc:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
